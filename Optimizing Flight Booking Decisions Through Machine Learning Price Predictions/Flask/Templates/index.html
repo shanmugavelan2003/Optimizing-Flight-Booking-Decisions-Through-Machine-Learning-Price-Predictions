@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> form</title>
+        <style type="text/css">
+           body{
+               background-color:blue;
+               font-size: 30px;
+            font-style: Times New Roman;
+            text-align: justify;
+            color: white;
+           }
+           table{
+            font-size: 40px;
+            font-style: Arial;
+            color: black;
+            }
+        </style>
+    </head>
+    <body>
+  <h1 align="center">Flight Price Prediction</h1>
+  <form>
+      <table align="center" cellpadding="10">
+          <tr>
+              <td>Airline</td>
+              <td> 
+              
+                   <select name="Airline" id="Airline" required="required">
+                   <option value="Jet Airways">Jet Airways</option>
+                   <option value="IndiGo">IndiGo</option>
+                   <option value="Air India">Air India</option>
+                   <option value="Multiple carriers">Multiple carriers</option>
+            </select>
+          </td>
+          </tr>
+          <tr>
+            <td>Source</td>
+            <td>
+            <select name="Source" id="Source" required="required">
+                 <option value="Banglore">Banglore</option>
+                 <option value="Kolkata">Kolkata</option>
+                 <option value="Delhi">Delhi</option>
+                 <option value="Cochin">Cochin</option>
+          
+           </select>    
+        </td>
+          
+        </tr>
+        
+          <tr>
+              <td>Destination</td>
+              <td>
+                <select name="Destination" id="Destination" required="required">
+                 <option value="Banglore">Banglore</option>
+                 <option value="Kolkata">Kolkata</option>
+                 <option value="Delhi">Delhi</option>
+                 <option value="Cochin">Cochin</option>
+          
+           </select>    
+           </td>
+          </tr>
+         
+          <tr>
+              <td>Depdate</td>
+              <td><input type="text" placeholder="enter Depdate" required></td>
+          </tr>
+          <tr>
+            <td>Depmonth</td>
+            <td><input type="text" placeholder="enter Depmonth" required></td>
+        </tr>
+        <tr>
+            <td>Depyear</td>
+            <td><input type="text" placeholder="enter Depyear" required></td>
+        </tr>
+        <tr>
+            <td>Deptimehour</td>
+            <td><input type="text" placeholder="enter Deptimehour" required></td>
+        </tr>
+        <tr>
+            <td>Deptimemins</td>
+            <td><input type="text" placeholder="enter Deptimemins" required></td>
+        </tr>
+        <tr>
+            <td>Artime</td>
+            <td><input type="text" placeholder="enter Artime" required></td>
+        </tr>
+        <tr>
+            <td>Artimehour</td>
+            <td><input type="text" placeholder="enter Artimehour" required></td>
+        </tr>
+        <tr>
+            <td>Artimemins</td>
+            <td><input type="text" placeholder="enter Artimemins" required></td>
+        </tr>
+
+         <td>
+             colspan="2" align="center">
+             <input type="submit" value="submit"/>
+            <input type="reset" value="reset" />
+         </td>
+
+         </tr>
+
+      </table>
+  </form>
+
+    
+    </body>
+</html>
